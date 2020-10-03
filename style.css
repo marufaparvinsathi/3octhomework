@@ -3,16 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
-ul li a{
-    color: rgb(34, 32, 30);
-}
-.hablu{
-    color: chocolate;
-}
-nav{
-    border-bottom: 1px solid orange;
-    
-}
+.navbar{
+    border-bottom: 2px solid orangered; 
+  }
+  
+  .nav-item a{
+      color: black;
+     
+  }
+  .nav-item a:hover{
+      color: black;
+      background: white;
+      border-bottom: 2px solid orangered;
+      border-right: 1px solid rgb(77, 71, 71);
+      border-top: 1px solid rgb(77, 71, 71);
+      border-left: 1px solid rgb(77, 71, 71);
+      border-top-left-radius: 10%;
+      border-top-right-radius: 10%;
+      
+  }
+
 .1sttext{
     color: black;
 }
